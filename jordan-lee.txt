@@ -1,0 +1,81 @@
+Codepen link: https://codepen.io/jlee5533/pen/RwoqomM
+
+1. What is Semantic HTML? 
+    Semantic HTML marks up HTML code with meaningful tags
+2. What is HTML used for? 
+    HTML is a markup language designed to display data in a graphical form. It is read by a browser and used as a blueprint for displaying info on a screen
+3. What is an attribute and where do we put it? 
+    An attribute provides additional information about an HTML element and is always specified in the start tag (ex: href attribute specifies the URL within the <a> tag that defines a hyperlink)
+4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used for the most important headline on a page and should only be used once.
+5. Name two tags that have required attributes
+    <a> and <img> require attributes (href for <a> and src for <img>)
+6. What do we put in the head of our HTML document? 
+    <html> <head> and <body> 
+7. What is an id? 
+    An id is used to specify a unique id for an HTML element (and therefore can only be used once)
+8. What elements can I add an id to?
+    The id attribute can be added to any HTML element
+9. How many times can I use the same id on a page? 
+    IDs must be unique and can only be used once per page
+10. What is a class? 
+    The class attribute is used to specify a grouping (or class) for one or more HTML elements
+11. What elements can I add a class to? 
+    The class attribute can be used on any HTML element
+12. How many times can I use the same class on a page? 
+    There is no limit to the number of times you can use the same class on a page
+13. How do I get my link to open in a new tab?
+    The anchor tag with an href attribute that is the URL you want the link to open to
+14. What is the alt attribute in the image tag used for? 
+    The alt attribute specifies alternate text for an image if the image cannot be displayed
+15. How do I reference an id?
+    An id is referenced using a hash character (#) followed by the name of the id
+16. What is the difference between a section and a div
+    Sections separate content within a site whereas divs separate content within a section
+17. What is CSS used for? 
+    CSS adds style and layout to web pages
+18. How to we select an element? Example - every h2 on the page
+    You can select every h2 on the page by typing h2{} in CSS
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+20. How do we select classes in CSS?
+    Classes are selected using a . followed by the name of the class
+21. How do we select a p element with a single class of “human””?
+    .human{}
+22. What is a parent child selector? When would this be useful? 
+    A parent child selector selects and styles every element within another element. This is useful when you have several elements within a class.
+23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{}
+24. What is a pseudo selector?
+    A pseudo selector is 
+25. What do we use the change the spacing between lines?
+    line-height
+26. What do we use to change the spacing between letters?
+    letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+28. How do I add a 1px border around my div that is dotted and black?
+    div{border: dotted 1px black}
+29. How do I select everything on the page? 
+    *{}
+30. How do I write a comment in CSS?
+    /* comment goes here */
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd (print working directory)
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls (list)
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm (remove) - be careful because you will not be prompted before the file is deleted, which may result in you losing a lot of work quickly
+34. Why should I use version control? 
+    Version control allows multiple developers to easily collaborate while keeping revisions straight and storing modifications in a central repository
+35. How often should I commit to github?
+    Work should be committed regularly to github to minimize the risk of losing work
+36. What is the command we would use to push our repo up to github? 
+    git push -u origin firstname-lastname (e.g., jordan-lee)
+37. Walk me through Lambda's git flow. 
+    - Fork to create your own version of a repository
+    - Clone your version of the repository to a local directory
+    - Create your own branch for the repository (this is where you will do work)
+    - Work on the respository and complete the project/assignment
+    - Add and commit changes made to your branch
+    - Push changes back up to your GitHub repository
+    - Create a pull request
